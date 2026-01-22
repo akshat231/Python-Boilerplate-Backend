@@ -4,12 +4,23 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "create-backend"
-version = "0.1.0"
-description = "CLI to scaffold FastAPI backend"
-requires-python = ">=3.9"
+version = "0.1.4"
+description = "CLI tool to scaffold FastAPI backend projects"
+readme = { file = "readme.md", content-type = "text/markdown" }
+authors = [{name = "Akshat Sharma", email = "akshat@example.com"}]
+license = {text = "MIT"}
+keywords = ["fastapi", "cli", "boilerplate", "scaffolding"]
+
+[project.urls]
+Homepage = "https://github.com/akshat231"
+Repository = "https://github.com/akshat231/Python-Boilerplate-Backend"
 
 [project.scripts]
 create-backend = "create_backend.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
+
+[tool.setuptools.package-data]
+"app" = ["requirements.txt"]
+

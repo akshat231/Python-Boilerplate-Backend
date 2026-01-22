@@ -8,7 +8,6 @@ cffi==2.0.0
 charset-normalizer==3.4.4
 click==8.3.1
 confluent-kafka==2.13.0
-create-backend @ file:///home/akshat-sharma/Documents/product/python-backend/dist/create_backend-0.1.0-py3-none-any.whl#sha256=600e835a9d28f058f576430ed1919849b04d7edd9e5fbb96e02e6e16a9cf430d
 cryptography==46.0.3
 dnspython==2.8.0
 docutils==0.22.4
